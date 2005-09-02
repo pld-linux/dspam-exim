@@ -1,4 +1,5 @@
 Summary:	Exim DSPAM at SMTP time
+Summary(pl):	Exim DSPAM w czasie SMTP
 Name:		dspam-exim
 Version:	0.8
 Release:	1
@@ -7,15 +8,18 @@ Group:		Networking/Daemons
 # http://dspamwiki.woozle.org/DspamWithEximLocalScanSourceCodeNew
 Source0:	dspam_exim.c
 URL:		http://dspamwiki.woozle.org/DspamWithEximLocalScan
-BuildRequires:	exim-devel
-BuildRequires:	dspam-devel
 BuildRequires:	clamav-devel
+BuildRequires:	dspam-devel
+BuildRequires:	exim-devel
 BuildRequires:	mysql-devel
 Requires:	exim >= 2:4.52-4
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Exim DSPAM at SMTP time.
+
+%description -l pl
+Exim DSPAM w czasie SMTP.
 
 %prep
 %setup -q -T -c
