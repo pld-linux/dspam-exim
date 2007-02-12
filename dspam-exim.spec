@@ -1,5 +1,5 @@
 Summary:	Exim DSPAM at SMTP time
-Summary(pl.UTF-8):   Exim DSPAM w czasie SMTP
+Summary(pl.UTF-8):	Exim DSPAM w czasie SMTP
 Name:		dspam-exim
 Version:	0.8
 Release:	1
